@@ -10,6 +10,13 @@ var upload = multer({dest:__dirname+'/uploads/'});
 
 app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
+app.use(express.static('public'));
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 var port = process.env.PORT || 3000;
 
@@ -19,46 +26,28 @@ router.get('/', function(req, res){
   res.json({message: 'Hello express rest api!'});
 });
 
-router.get('/docx', function(req, res){
+router.get('/doc/:filename', function(req, res){
+  var filename = req.params.filename;
+  var path = __dirname+'/'+filename;
 
-  var content = fs.readFileSync(__dirname+"/nota.docx","binary");
-
-  var doc = new Docxtemplater(content);
-
-  doc.setData({
-      "numero":"0002"
-  });
-
-  doc.render();
-
-  var buf = doc.getZip()
-               .generate({type:"nodebuffer"});
-
-  fs.writeFileSync(__dirname+"/nota-saida.docx",buf);
-
-  res.json({message: 'Arquivo gerado...'});
-
-});
-
-router.post('/gerar-documento', function(req, res){
-  var body = req.body;
-
-  res.json({message : body});
-
+  res.download(path);
 });
 
 router.post('/upload', upload.single('arquivo'), function(req, res){
   console.dir(req.file);
 
-  var filename = req.file.destination+req.file.originalname;
-  var filenameSaida = __dirname+"/nota-saida.docx";
+  var filename = req.file.filename;
+  var ext = req.file.originalname.split('.').pop();
 
-  fs.rename(req.file.path, filename, (err) => {
+  var filenameTmp = __dirname+"/tmp/"+filename+'.'+ext;
+  var filenameSaida = __dirname+"/"+filename+'.'+ext;
+
+  fs.rename(req.file.path, filenameTmp, (err) => {
     if(err) throw err;
     console.log('file renamed... moved...');
   });
 
-  var content = fs.readFileSync(filename, 'binary');
+  var content = fs.readFileSync(req.file.path, 'binary');
 
   var doc = new Docxtemplater(content);
 
@@ -70,7 +59,12 @@ router.post('/upload', upload.single('arquivo'), function(req, res){
                .generate({type:"nodebuffer"});
 
   fs.writeFileSync(filenameSaida,buf);
-  res.download(filenameSaida);
+  
+  res.json({
+    'message' : 'Arquivo gerado com sucesso!',
+    'filename' : filename+'.'+ext,
+    'urlDownload' : '/api/doc/'+filename+'.'+ext
+  })
 
 });
 

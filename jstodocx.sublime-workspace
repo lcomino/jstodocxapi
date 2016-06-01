@@ -1,0 +1,758 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background	Style CSS"
+			],
+			[
+				"dire",
+				"directory"
+			],
+			[
+				"foreach",
+				"foreach	foreach …"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"acompa",
+				"acompanhante"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"respon",
+				"responseText	XMLHttpRequest"
+			],
+			[
+				"quer",
+				"querySelector(selectors)	Element"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"url",
+				"urlAmigavel"
+			],
+			[
+				"regis",
+				"registrarVisita"
+			],
+			[
+				"PARAM",
+				"PARAM_STR"
+			],
+			[
+				"bind",
+				"bindParam"
+			],
+			[
+				"PARAM_",
+				"PARAM_INT"
+			],
+			[
+				"deta",
+				"detalhes"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"acomp",
+				"acompanhante"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"con",
+				"connection"
+			],
+			[
+				"sql",
+				"sqlStr"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"acom",
+				"acompanhante"
+			],
+			[
+				"acompanha",
+				"acompanhante"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"geta",
+				"getAttribute(attributeName)	Element"
+			],
+			[
+				"inpu",
+				"inputWithError"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"required",
+				"requiredMessages"
+			],
+			[
+				"requi",
+				"requiredMessages"
+			],
+			[
+				"re",
+				"requiredMessages"
+			],
+			[
+				"input",
+				"inputMessage"
+			],
+			[
+				"data",
+				"data-cliente"
+			],
+			[
+				"data-",
+				"data-banner-posicao"
+			],
+			[
+				"prop",
+				"propaganda"
+			],
+			[
+				"cl",
+				"cel	createElement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nJasmine JS\n----------\n\n  Recent Changes\n  ==============\n  \n  Hello!\n  \n  Jasmine JS has some new snippets to support arrow functions!\n  \n  The tab triggers for the new snippets have an `e` appended to them, for example\n  \n  desc⇥\n  \n          describe(\"Name of the group\", function() {\n              \n          });\n  \n  desce⇥\n  \n          describe('Name of the group', () => {\n              \n          });\n  \n  \n  **IMPORTANT**:\n  \n  Because of the workaround this package uses to provide snippets with double and single quotes (using the `Toggle quotes` command),\n  it's possible that you have to restart Sublime Text and maybe use toggle quotes again if you were using double quotes. Sorry!\n  \n  \n  ---------------------------------------------\n  \n  \n  Thanks a lot to @feimosi for the suggestion!\n  \n  If you have any problem (or feature request) please go to: https://github.com/NicoSantangelo/sublime-jasmine\n  \n  That's all, thanks!\n",
+			"settings":
+			{
+				"buffer_size": 992,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 125.0,
+		"last_filter": "json",
+		"selected_items":
+		[
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"jasmine",
+				"Set Syntax: Jasmine"
+			],
+			[
+				"jasmi",
+				"Snippet: jasmine.any"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 526.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/zoidepomba/Projetos/jstodocxapi"
+	],
+	"file_history":
+	[
+		"/home/zoidepomba/stdl/db/stdl.sql",
+		"/home/zoidepomba/stdl/views/mapa.php",
+		"/home/zoidepomba/stdl/src/Stdl/Acompanhante.php",
+		"/tmp/fz3temp-1/config-soastopdelinha.json",
+		"/tmp/fz3temp-1/config-tag.json",
+		"/home/zoidepomba/stdl/views/garotas.code.php",
+		"/home/zoidepomba/stdl/views/garotas.php",
+		"/home/zoidepomba/stdl/assets/js/infobubble-compiled.js",
+		"/home/zoidepomba/stdl/views/home.php",
+		"/tmp/fz3temp-1/SoAsTopDeLinha.php",
+		"/tmp/fz3temp-1/.htaccess",
+		"/tmp/fz3temp-1/error.log",
+		"/home/zoidepomba/stdl/index.php",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/garota.php",
+		"/home/zoidepomba/stdl/assets/less/grid.less",
+		"/home/zoidepomba/stdl/assets/css/form.css",
+		"/home/zoidepomba/stdl/views/novidades.php",
+		"/home/zoidepomba/stdl/views/anuncie.php",
+		"/home/zoidepomba/stdl/views/anunciante.php",
+		"/home/zoidepomba/stdl/assets/less/style.less",
+		"/home/zoidepomba/stdl/views/cadastro.php",
+		"/home/zoidepomba/stdl/views/cadastro.code.php",
+		"/home/zoidepomba/stdl/assets/js/main.js",
+		"/home/zoidepomba/stdl/src/Stdl/Novidades.php",
+		"/home/zoidepomba/stdl/views/novidades.code.php",
+		"/home/zoidepomba/stdl/views/garota.php",
+		"/home/zoidepomba/stdl/src/Indexador.php",
+		"/tmp/fz3temp-1/mysql-repair-cs.py",
+		"/home/zoidepomba/stdl/gulpfile.js",
+		"/home/zoidepomba/stdl/views/termoscondicoes.php",
+		"/home/zoidepomba/stdl/views/obrigado.php",
+		"/home/zoidepomba/stdl/assets/estadoscidades.json",
+		"/home/zoidepomba/stdl/assets/css/grid.css",
+		"/home/zoidepomba/stdl/assets/css/media.css",
+		"/home/zoidepomba/stdl/assets/css/style.css",
+		"/home/zoidepomba/stdl/.htaccess",
+		"/home/zoidepomba/stdl/404.php",
+		"/home/zoidepomba/stdl/acompanhantes/Miabarra4 (cópia)/Miabarra4.json",
+		"/home/zoidepomba/stdl/views/acompanhante.php",
+		"/home/zoidepomba/stdl/src/File/Upload.php",
+		"/home/zoidepomba/stdl/views/teste.php",
+		"/home/zoidepomba/stdl/src/Connection.php",
+		"/home/zoidepomba/stdl/stdl.sublime-project",
+		"/home/zoidepomba/stdl/vendor/respect/rest/library/Respect/Rest/Routines/AbstractSyncedRoutine.php",
+		"/home/zoidepomba/stdl/teste.php",
+		"/home/zoidepomba/stdl/bootstrap.php",
+		"/home/zoidepomba/stdl/assets/js/Form.js",
+		"/home/zoidepomba/stdl/assets/js/InputMask.js",
+		"/home/zoidepomba/stdl/assets/js/Files.js",
+		"/home/zoidepomba/stdl/acompanhantes/acompanhantes.json",
+		"/home/zoidepomba/stdl/acompanhantes/Miabarra4/Miabarra4.json",
+		"/home/zoidepomba/stdl/acompanhantes/marinalove26/KeilaPiti.json",
+		"/home/zoidepomba/stdl/acompanhantes/KeilaPiti/KeilaPiti.json",
+		"/home/zoidepomba/stdl/acompanhantes/imola_padilha/imola_padilha.json",
+		"/home/zoidepomba/stdl/acompanhantes/dainhalindinha9/dainhalindinha9.json",
+		"/home/zoidepomba/stdl/acompanhantes/BiancaGraciote/bianca_graciote.json",
+		"/home/zoidepomba/stdl/src/Stdl/Acompanhantes.php",
+		"/home/zoidepomba/stdl/acompanhantes/amora_reis/amora_reis.json",
+		"/home/zoidepomba/stdl/assets/css/form-validate.css",
+		"/home/zoidepomba/Projetos/Repeater/repeater.js",
+		"/home/zoidepomba/Projetos/Repeater/tests/spec/repeaterjs.js",
+		"/home/zoidepomba/Projetos/Repeater/karma.conf.js",
+		"/home/zoidepomba/Projetos/Repeater/tests/index.html",
+		"/home/zoidepomba/Projetos/Repeater/tests/SpecRunner.html",
+		"/home/zoidepomba/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/zoidepomba/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/zoidepomba/Projetos/StringJs/tests/SpecRunner.html",
+		"/home/zoidepomba/Projetos/StringJs/tests/src/string.js",
+		"/home/zoidepomba/Projetos/StringJs/tests/spec/stringjs.js",
+		"/home/zoidepomba/Projetos/StringJs/tests/spec/stringjs_spec.js",
+		"/home/zoidepomba/Dropbox/CssSprite.php",
+		"/home/zoidepomba/Dropbox/boot-fudas.js",
+		"/home/zoidepomba/public_html/index.js",
+		"/home/zoidepomba/Projetos/module/module.js",
+		"/home/zoidepomba/Projetos/twitterzp/app.js",
+		"/home/zoidepomba/Projetos/twitterzp/node_modules/tuiter/lib/tuiter.js",
+		"/home/zoidepomba/Projetos/twitterzp/node_modules/tuiter/index.js",
+		"/home/zoidepomba/Projetos/middlewere/routes/index.js",
+		"/home/zoidepomba/Projetos/middlewere/routes/users.js",
+		"/home/zoidepomba/Projetos/middlewere/app.js",
+		"/home/zoidepomba/Projetos/zombiepage/index.js",
+		"/home/zoidepomba/Projetos/zoidepomba-blog-js/index.js",
+		"/home/zoidepomba/phantonjs/examples/arguments.js",
+		"/home/zoidepomba/phantonjs/examples/direction.js",
+		"/home/zoidepomba/install.sh",
+		"/home/zoidepomba/face.py",
+		"/home/zoidepomba/scripts/theme.js",
+		"/home/zoidepomba/Projetos/zoidepomba-js/views/post.jade",
+		"/home/zoidepomba/Projetos/zoidepomba-js/views/layout.jade",
+		"/home/zoidepomba/Projetos/zoidepomba-js/public/js/propaganda.js",
+		"/home/zoidepomba/Projetos/zoidepomba-js/routes/post.js",
+		"/home/zoidepomba/Projetos/zoidepomba-js/index.js",
+		"/home/zoidepomba/Projetos/zoidepomba-js/views/feed.jade",
+		"/home/zoidepomba/Projetos/zoidepomba-js/routes/feed.js",
+		"/home/zoidepomba/Projetos/zoidepomba-js/routes/categoria.js",
+		"/home/zoidepomba/Projetos/zoidepomba-js/views/post-edit.jade",
+		"/home/zoidepomba/Projetos/zoidepomba-js/views/feed.jsde",
+		"/home/zoidepomba/Projetos/html5up-dopetrope/css/style.css",
+		"/home/zoidepomba/zp_posts.csv",
+		"/home/zoidepomba/Projetos/StringJs/repeater.js",
+		"/home/zoidepomba/Projetos/site-maca/Site/src/Email/Config.php",
+		"/home/zoidepomba/Projetos/site-maca/Site/src/Email/Mailer.php",
+		"/home/zoidepomba/Projetos/site-maca/Site/views/contact.php",
+		"/home/zoidepomba/Projetos/site-maca/Site/controllers/Contact.php",
+		"/home/zoidepomba/Projetos/site-maca/Site/assets/templates/mail.html",
+		"/home/zoidepomba/Projetos/site-maca/Site/index.php",
+		"/home/zoidepomba/Projetos/site-maca/Site/bootstrap.php",
+		"/home/zoidepomba/Projetos/agregador-zp/views/index.hjs",
+		"/home/zoidepomba/favoritos_18_04_15.html",
+		"/home/zoidepomba/Projetos/loginform/index.html",
+		"/home/zoidepomba/Downloads/TimelineRawData-20150207T115149.json"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http://bit.ly/23LRL8K",
+			"babalu-brasileirinha",
+			"http://bit.ly/1qeT1UF",
+			"larissa",
+			"http://bit.ly/1Oorczn",
+			"morena-safada",
+			"http://bit.ly/1X2ow1l",
+			"juliana-",
+			"yasmin",
+			"http://www.soastopdelinha.com.br/garota/suzie-slut",
+			"http://www.soastopdelinha.com.br/garota/rachel-sherman",
+			"http://www.soastopdelinha.com.br/garota/suzana-lima-bbw",
+			"http://www.soastopdelinha.com.br/garota/marjorie-bueno",
+			"http://www.soastopdelinha.com.br/garota/camila-ferraz",
+			"http://www.soastopdelinha.com.br/garota/maria-luiza-",
+			"http://www.soastopdelinha.com.br/garota/lyramilf",
+			"http://www.soastopdelinha.com.br/garota/vivi-rodriguez",
+			"http://www.soastopdelinha.com.br/garota/suzanna-prado",
+			"http://www.soastopdelinha.com.br/garota/juliana-",
+			"http://www.soastopdelinha.com.br/garota/brunna-gaucha",
+			"http://www.soastopdelinha.com.br/garota/mayumi-japinha",
+			"http://www.soastopdelinha.com.br/garota/amanda",
+			"http://www.soastopdelinha.com.br/garota/francesca",
+			"http://www.soastopdelinha.com.br/garota/camilasexy",
+			"http://www.soastopdelinha.com.br/garota/keila-piti",
+			"http://www.soastopdelinha.com.br/garota/sabrina-yamazaky",
+			"brunna-gaucha",
+			"mayumi-japinha",
+			"amanda",
+			"Amanda",
+			"amanda",
+			"Amanda",
+			"amanda",
+			"Amanda",
+			"amanda",
+			"Umuarama",
+			"francesca",
+			"camilasexy",
+			"suzanna-prado",
+			"twitter",
+			"{s:",
+			"b:0",
+			"ã",
+			"ç",
+			".btn",
+			"<img src=\"",
+			"extend",
+			"row",
+			"0.2s",
+			"\"",
+			"column-12",
+			"column-4",
+			"-1{",
+			"-4{",
+			"-6{",
+			"-12{",
+			"column-desktopS",
+			"column-tabletS",
+			"column-tablet-12",
+			"column-desktop-6",
+			"px) { ",
+			"screen{\n		width: @column",
+			"screen{",
+			"column-6",
+			"&:extend(.column-1);",
+			"-1{",
+			"&:extend(.column-4);",
+			"-4{",
+			".column-desktops-hd-4{	",
+			"width: @column-6;",
+			"&:extend(.column-6);",
+			"&:extend(.column-12);",
+			"@media screen {",
+			"&extend",
+			"@extend",
+			"-4",
+			"-6",
+			"100%",
+			"-12",
+			"1200px",
+			"redes-sociais",
+			"15px",
+			"0px",
+			"5px",
+			"senha",
+			":hover",
+			"input-form",
+			"4",
+			"6",
+			"input-form",
+			"column-6",
+			"input-form",
+			"form",
+			"form-",
+			"assets/fancybox",
+			"/fancybox",
+			");",
+			",",
+			"->",
+			"= :",
+			"|",
+			"$",
+			"public",
+			"p>",
+			"p",
+			"Não",
+			"não",
+			"NÃO",
+			"Spartanas",
+			"SPARTANAS",
+			"Spartanas",
+			"STDL",
+			"&nbsp;",
+			"a{",
+			"texto",
+			".texto",
+			"red",
+			"color",
+			"');\n",
+			"r",
+			"class=\"required\"",
+			"string",
+			"binda",
+			".slug",
+			".com/",
+			"devsmash",
+			"autorizacaoLink",
+			"veei d"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								992,
+								992
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_indent": false,
+							"default_dir": "/home/zoidepomba/Projetos/jstodocxapi",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 20.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 131.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-pull":
+	{
+		"height": 88.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jstodocx.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"contac",
+				"views/contact.php"
+			],
+			[
+				"boo",
+				"bootstrap.php"
+			],
+			[
+				"conta",
+				"controllers/Contact.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projetos/app-twitter/app-twitter.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
