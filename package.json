@@ -1,5 +1,5 @@
 {
-  "name": "docx",
+  "name": "Gerador documento docx",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
