@@ -39,19 +39,23 @@ router.post('/upload', upload.single('arquivo'), function(req, res){
   var filename = req.file.filename;
   var ext = req.file.originalname.split('.').pop();
 
+  if(req.body.nome_arquivo)
+    filename = req.body.nome_arquivo;
+
   var filenameTmp = __dirname+"/tmp/"+filename+'.'+ext;
-  var filenameSaida = __dirname+"/"+filename+'.'+ext;
+  var filenameSaida = __dirname+"/"+filename+'.docx';
 
   fs.rename(req.file.path, filenameTmp, (err) => {
     if(err) throw err;
-    console.log('file renamed... moved...');
   });
 
   var content = fs.readFileSync(req.file.path, 'binary');
 
   var doc = new Docxtemplater(content);
 
-  doc.setData(req.body);
+  var b = JSON.parse(req.body.data);
+  console.log(b);
+  doc.setData(b);
 
   doc.render();
 
@@ -59,11 +63,12 @@ router.post('/upload', upload.single('arquivo'), function(req, res){
                .generate({type:"nodebuffer"});
 
   fs.writeFileSync(filenameSaida,buf);
-  
+
+
   res.json({
     'message' : 'Arquivo gerado com sucesso!',
-    'filename' : filename+'.'+ext,
-    'urlDownload' : '/api/doc/'+filename+'.'+ext
+    'filename' : filename+'.docx',
+    'urlDownload' : '/api/doc/'+filename+'.docx'
   })
 
 });
